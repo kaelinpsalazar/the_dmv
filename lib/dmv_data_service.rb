@@ -26,7 +26,6 @@ end
 
 dmv_data_service = DmvDataService.new
 
-# Call the method co_dmv_office_locations on the instance
 co_dmv_offices = dmv_data_service.co_dmv_office_locations
 
 
