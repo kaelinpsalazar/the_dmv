@@ -99,6 +99,7 @@ RSpec.describe Facility do
         @registrant_1.license_data[:written] = true
         @registrant_1.license_data[:license] = true
       
+    
       
         expect(@facility.renew_drivers_license(@registrant_1)).to eq(true)
       
